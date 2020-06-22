@@ -17,27 +17,42 @@
   </head>
   <body>
   <header>
-    <section class="navbar  container-fluid bg-dark">
-        <div class="fixed-top container d-inline">
-            <div class="collapse" id="navbarToggleExternalContent">
-              <div class=" p-4">
-                <ul class="text-white navbaritems">
-                  <li>Accueil</li>
-                  <li>Véhicules neufs</li>
-                  <li>Véhicules d’occasion</li>
-                  <li>Nos services</li>
-                  <li>Notre expertise</li>
-                  <li>Contact</li>
-                </ul>
-              </div>
-            </div>
-            <nav class="navbar navbar-dark">
-              <button class="navbar-toggler border-color-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <img src="images/logo/logo.jpg" alt="logo" class=" bg-none">
-              <i class="fas fa-search color-white"></i>
-            </nav>
+    <section>
+      <div class="container ">
+        <div class=" toggleimg">
+            <img src="icones/Color-Burger.png">
         </div>
-      </section>
+        <div class=" sidebar">
+          <div class="sidebarbuttonclose">
+            <p class="close"> x Fermer </p>
+          </div>
+          <div class="sidebarliste">
+              <ul  class="sidebarlisteitem">
+                <li >Accueil</li>
+                <li >Véhicules neufs</li>
+                <li >Véhicules d’occasion</li>
+                <li >Nos services</li>
+                <li >Notre expertise</li>
+                <li >Contact</li>
+              </ul>
+            </div>
+      </div>
+    </div>
+
+    </section>
+
+    <section>
+    <div class="container logoloupe">
+      <div class="logo ">
+          <img src="images/logo/logo.png" alt="logo">
+      </div>
+      <div class="iconeloupe ">
+          <i class="fas fa-search text-white"></i>
+      </div>
+    </div>
+
+    </section>
+
+
+
 </header>

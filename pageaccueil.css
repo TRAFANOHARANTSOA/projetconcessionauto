@@ -1,3 +1,250 @@
-ul.navbaritems {
-list-style-type:none;
+body{
+  font-family: 'lato', sans-serif;
 }
+/*header*/
+.container{
+  max-width: 1830px;
+}
+.videoaccueil{
+  position:relative;
+  max-height: 875px;
+}
+.logoloupe{
+  position:relative;
+}
+.logo{
+  position: absolute;
+  top:30px;
+  right:50%;
+  transform:translateX(50%);
+  z-index: 999;
+
+}
+
+.iconeloupe{
+  position: absolute;
+  right:5%;
+  top:50px;
+  background-color: black;
+  z-index: 999;
+}
+
+.toggleimg{
+  position:fixed;
+  z-index: 999;
+}
+.sidebar{
+  position:absolute;
+  background-color:black;
+  opacity:50%;
+  height: 100vh!important;
+  width : 50%;
+  left: 0;
+  display:none;
+
+}
+.sidebar li{
+font-size:3rem;
+color:white;
+line-height: 5rem;
+text-align:right;
+padding-right: 25px;
+list-style-type: none;
+
+}
+.sidebarliste {
+  position:absolute;
+  top:50%;
+  right:50px;
+  transform: translateY(-50%);
+}
+.close{
+position:absolute;
+color:white;
+left:5%;
+top: 45px;
+text-decoration: none;
+  }
+/*fin header*/
+/*filtre*/
+.findcar{
+position:absolute;
+top: 150px;
+right:100px;
+text-align: center;
+color:white;
+
+}
+.form-control{
+  background: none;
+  margin-bottom: 10px;
+  border:none;
+  border-bottom: solid grey;
+  }
+.formbutton{
+  background:none;
+  font-weight: bold;
+  color:red;
+  border: solid 3px red;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/*fin filtre*/
+
+/* concession*/
+.concession, .concession2{
+position:relative;
+background-color: black;
+}
+
+.concessiontitle {
+  position:absolute;
+  top:350px;
+  right: 20%;
+  color:white;
+  width:min-content;
+  line-height: 2em;
+}
+.concessionparagprahe{
+  position:absolute;
+  top:150px;
+  right: 10%;
+  color:white;
+  width:40vw;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+.mask{
+  mask-image:url(images/masque.png);
+  mask-size :cover;
+  -webkit-mask:url(images/masque.png);
+  -webkit-mask-size:cover;
+  width:100%;
+  height:100%;
+}
+.mask2{
+  mask-image:url(images/masque2.png);
+  mask-size :cover;
+  -webkit-mask:url(images/masque2.png);
+  -webkit-mask-size:cover;
+  width:100%;
+  height:100%;
+}
+.imgfloatleft{
+  float:left;
+  padding-right: 80px;
+  margin-top: 30px;
+}
+/* fin concession*/
+/* dernières modèles*/
+.nosdernieresmodelescontainer{
+  position:relative;
+  background-color:#262626;
+
+}
+
+.essai{
+  position:absolute;
+  top:400px;
+  left:50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+.nosdernieresmodelescarousel{
+  width:70%;
+  text-align: center;
+  margin:auto;
+}
+
+/*fin dernières modèles*/
+/*nos services*/
+
+.mask4{
+  background-color: white;
+  height: 700px;
+  mask-image:url(images/masque4.png);
+  mask-size :cover;
+  -webkit-mask:url(images/masque4.png);
+  -webkit-mask-size:cover;
+  width:100%;
+  height:100%;
+}
+
+/*fin nos services*/
+
+
+/*nos marques*/
+
+.toutesnosmarquescontainer{
+  background-color:black;
+}
+
+/*fin nos marques*/
+
+/*.sidebar{
+  position: fixed;
+  background-color:black;
+  opacity:50%;
+  height: 100%!important;
+  width : 50%;
+}
+
+.sidebarliste {
+  position:absolute;
+  top:50%;
+  right:50;
+  transform: translateY(-50%);
+}
+.close{
+position:absolute;
+color:white;
+left:10;
+top: 45;
+text-decoration: none;
+  }
+
+.sidebar li{
+font-size:3rem;
+color:white;
+line-height: 5rem;
+text-align:right;
+padding-right: 25px;
+list-style-type: none;
+
+}
+
+.toggleimg {
+  position:absolute;
+  left:0;
+  top:0;
+}
+.sidebar:active{
+  left:0;
+}
+
+.logo{
+  position: absolute;
+  top:30px;
+  right:50%;
+
+}
+
+.iconeloupe{
+  position: absolute;
+  right:50%;
+  background-color: black;
+
+}
+
+
+
+
+
+
+/*.navbarbutton .navbar-toggler {
+  border:none!important;
+}*/
