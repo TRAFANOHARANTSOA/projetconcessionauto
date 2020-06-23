@@ -1,15 +1,19 @@
 <?php include 'header.php'?>
 <link rel="stylesheet" href="pageaccueil.css">
 
-<section class=" videoaccueil">
-  <video src="video\car.mp4" autoplay muted loop class="w-100">
-  </video>
-</section>
+  <section >
+    <div class="videoaccueil mt-0">
+        <video autoplay muted loop class="w-100">
+          <source type="video/mp4" src="video\car.mp4">
+        </video>
+    </div>
+
+  </section>
 
 <section >
-          <form class="findcar">
+          <form id="myFilterdnone" class="findcar">
               <h2 class="text-uppercase trouvervehicule"><span class="text-underline">TROUVEZ VOTRE VEHICULE</span></h2>
-              <div class="row text-white formgroup">
+              <div class="row  formgroup">
                   <div class="col-6">
                   <input type="text" class="form-control" placeholder="Marque">
                   </div>
@@ -17,7 +21,7 @@
                   <input type="text" class="form-control" placeholder="Modèle">
                   </div>
               </div>
-              <div class="row text-white formgroup">
+              <div class="row  formgroup">
                   <div class="col-6">
                   <input type="text" class="form-control" placeholder="Catégorie">
                   </div>
@@ -25,7 +29,7 @@
                   <input type="text" class="form-control" placeholder="Prix">
                   </div>
               </div>
-              <div class="row text-white formgroup">
+              <div class="row  formgroup">
                   <div class="col-6">
                   <input type="text" class="form-control" placeholder="Carburant">
                   </div>
@@ -33,7 +37,7 @@
                   <input type="text" class="form-control" placeholder="Boite de vitesses">
                   </div>
               </div>
-              <div class="row text-white formgroup">
+              <div class="row  formgroup">
                   <div class="col-6">
                   <input type="text" class="form-control" placeholder="Puissances fiscales">
                   </div>
@@ -42,7 +46,7 @@
                   </div>
               </div>
 
-              <div class="row text-white formgroup">
+              <div class="row  formgroup">
                   <div class="col">
                       <button class="btn  text-uppercase formbutton" type="submit">Rechercher</button>
                   </div>
@@ -88,8 +92,8 @@
       </section>
 
       <section id="nosdernieresmodeles">
-            <div class="container nosdernieresmodelescontainer">
-                <div class="page-header text-left text-white">
+            <div class="container height bg-color ">
+                <div class=" text-left text-white">
                   <h1>NOS DERNIERES MODELES</h1>
                 </div>
                 <div id="carousel" class="carousel slide nosdernieresmodelescarousel" data-interval="3000" data-ride="carousel" >
@@ -97,17 +101,17 @@
                       <div class="carousel-item active carouselimg ">
                         <p class="text-white">ALFA ROMEO Guilietta Serie 2 1.4 TB MultiAir 170 ch S&S TCT Super </p>
                         <p class="text-danger">23650€</p>
-                        <img src="images/voiture-neuf-2.png" class="d-block img-fluid"  alt="voitureneuve2">
+                        <img src="images/voiture-neuf-2.png" class="d-block img-fluid mx-auto"  alt="voitureneuve2">
                       </div>
                       <div class="carousel-item carouselimg">
                         <p class="text-white">Audi Q3 1.4 TFSI COD 150 ch S tronic 6 Ambiente</p>
                         <p class="text-danger">31900€</p>
-                        <img src="images/voiture-neuve-3.png" class="d-block img-fluid" alt="voitureneuve3">
+                        <img src="images/voiture-neuve-3.png" class="d-block img-fluid mx-auto" alt="voitureneuve3">
                       </div>
                       <div class="carousel-item carouselimg">
                         <p class="text-white ">Audi Q3 1.4 TFSI COD 150 ch S tronic 6 Ambiente</p>
                         <p class="text-danger">32600€</p>
-                        <img src="images/vehicule-neuf-1.png" class="d-block img-fluid vehicule1" alt="vehicule1">
+                        <img src="images/vehicule-neuf-1.png" class="d-block img-fluid mx-auto" alt="vehicule1">
                       </div>
                     </div>
 
@@ -120,48 +124,49 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-                    <div class="essai">
-                      <p>Essayez la !Vous pouvez dès à présent réserver un essai sur notre site. </p>
-                        <button class="btn  text-uppercase formbutton" type="submit">Rechercher</button>
-                    </div>
+                  <div class="essai">
+                    <p>Essayez la !Vous pouvez dès à présent réserver un essai sur notre site. </p>
+                      <button class="btn  text-uppercase formbutton" type="submit">Rechercher</button>
+                  </div>
               </div>
       </section>
-<section class="">
-<div class="mask4">
 
-</div>
-</section>
-      <!--<section class="nosservices mask4">
-          <div class="container">
-            <h1> NOS SERVICES </h1>
-          </div>
-          <div class="container">
-            <h2> REPRISE DE VOTRE VEHICULE </h2>
-          </div>
-          <div class="container">
-            <h2>  SERVICE CARTE GRISE</h2>
-          </div>
-          <div class="container">
-            <h2> GARANTIE SERENITE </h2>
-          </div>
-          <div class="container concessionautomobilealsaceimage">
-            <a> <img src="icones/money.png" alt="money" class="bg-dark"> </a>
-            <a> <img src="icones/filesandfolders.png" alt="filesandfolders" class="bg-dark"> </a>
-            <a> <img src="icones/key.png" alt="key" class="bg-dark"> </a>
-          </div>
-          <div>
-            <a> <img src="icones/money.png" alt="money" class="bg-dark" > </a>
-            <h1>REPRISE DE VOTRE VEHICULE</h1>
-            <p> Comme en concession, nous sommes en mesure de vous faire une offre de reprise sur votre véhicule. Fini le casse-tête de la vente, lorsque vous prenez possession de votre nouveau véhicule nous vous reprenons l’ancien (en fonction de l’offre établie selon les modalités de reprise).</p>
-            <a> <img src="images/reprise.jpg" alt="remisedeclés"> </a>
-          </div>
-            <div class="row text-white formgroup">
-              <div class="col">
-                <button class="btn btn-primary text-uppercase" type="submit">En savoir plus sur nos services</button>
-              </div>
+      <section class="nosservices ">
+      <div class="container bg-dark pr-0 pl-0 nosservicescontainer">
+            <div class="container pr-0 pl-0 " >
+              <img src="images/masque4.png" class="img-fluid">
+              <h1 class="nosservicestitre text-white"> NOS SERVICES </h1>
             </div>
-          </div>
+            <div class="row nosservicestext reprise">
+              <h2 class="nosservicesh2"> REPRISE DE VOTRE VEHICULE </h2>
+              <a> <img src="icones/money.png" alt="money" > </a>
+            </div>
+            <div class="row nosservicestext service ">
+              <h2 class="nosservicesh2">  SERVICE CARTE GRISE</h2>
+              <a> <img src="icones/filesandfolders.png" alt="filesandfolders"> </a>
+            </div>
+            <div class="row nosservicestext garantie">
+              <h2 class="nosservicesh2"> GARANTIE SERENITE </h2>
+              <a> <img src="icones/key.png" alt="key"> </a>
+            </div>
+        </div>
         </section>
+
+          <section class="reprisedevotrevoiture">
+            <div class="container bg-danger pr-0 pl-0 text-white reprisedevotrevoiturecontainer">
+              <div class="row mr-0 reprisedevotrevoitureligne">
+                  <div class="col-6 d-block colmoney">
+                        <a> <img src="icones/money.png" alt="money" class="iconemoney" > </a>
+                        <h1>REPRISE DE VOTRE VEHICULE</h1>
+                        <p> Comme en concession, nous sommes en mesure de vous faire une offre de reprise sur votre véhicule. Fini le casse-tête de la vente, lorsque vous prenez possession de votre nouveau véhicule nous vous reprenons l’ancien (en fonction de l’offre établie selon les modalités de reprise).</p>
+                    </div>
+                    <div class="col-6">
+                      <a> <img src="images/reprise.jpg" class="img-fluid " alt="remisedeclés"> </a>
+                    </div>
+              </div >
+                        <button class="btn  text-uppercase formbuttonnosservices" type="submit">En savoir plus sur nos services</button>
+              </div>
+          </section>
 
       <section id="toutesnosmarques">
             <div class="container toutesnosmarquescontainer">
@@ -199,25 +204,18 @@
               </div>
       </section>
 
-          <!--<section class="toutesnosmarques">
-            <div class="container">
-              <h1>TOUTES NOS MARQUES</h1>
-              <img src="images/logo/kia.png" alt="logokia">
-              <img src="images/logo/jeep1.png" alt="logojeep1">
-              <img src="images/logo/suzuki.png" alt="logosuzuki">
-              <img src="images/logo/nissan.png" alt="logonissan">
-              <img src="images/logo/hyundai.png" alt="logohyundai">
-            </div>
-          </section>
-          <section class="toutesnosmarques">
-            <div class="container">
+          <section class="nouscontacter">
+            <div class=" container pr-0 pl-0 nouscontactercartetext">
+            <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.1732220064496!2d7.369273915647971!3d48.106894079220986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791663cf30c28e5%3A0x8d74bc6d6253ba48!2s16%20Rue%20Andr%C3%A9%20Kiener%2C%2068000%20Colmar!5e0!3m2!1sfr!2sfr!4v1592818689678!5m2!1sfr!2sfr"height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class=" nouscontactertext">
               <h1>NOUS CONTACTER</h1>
               <p> 16 rue andré kiener 68000 colmar</p>
               <p> 03 89 24 93 03</p>
               <p> 07 84 38 68 15</p>
-              <button class="btn btn-primary text-uppercase" type="submit">Afficher la carte</button>
+              <button class="btn  text-uppercase formbuttonnosnouscontacter" type="submit">Afficher la carte</button>
             </div>
-          </section>-->
+          </div>
+          </section>
 
 
 
