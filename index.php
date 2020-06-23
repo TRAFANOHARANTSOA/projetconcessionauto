@@ -15,54 +15,54 @@
               <h2 class="text-uppercase trouvervehicule"><span class="text-underline">TROUVEZ VOTRE VEHICULE</span></h2>
               <div class="row  formgroup">
                   <div class="col-6">
-                  <input type="text" class="form-control" placeholder="Marque">
+                  <input type="text" class="form-control form-controlbanner" placeholder="Marque">
                   </div>
                   <div class="col-6">
-                  <input type="text" class="form-control" placeholder="Modèle">
-                  </div>
-              </div>
-              <div class="row  formgroup">
-                  <div class="col-6">
-                  <input type="text" class="form-control" placeholder="Catégorie">
-                  </div>
-                  <div class="col-6">
-                  <input type="text" class="form-control" placeholder="Prix">
+                  <input type="text" class="form-control form-controlbanner" placeholder="Modèle">
                   </div>
               </div>
               <div class="row  formgroup">
                   <div class="col-6">
-                  <input type="text" class="form-control" placeholder="Carburant">
+                  <input type="text" class="form-control form-controlbanner" placeholder="Catégorie">
                   </div>
                   <div class="col-6">
-                  <input type="text" class="form-control" placeholder="Boite de vitesses">
+                  <input type="text" class="form-control form-controlbanner" placeholder="Prix">
                   </div>
               </div>
               <div class="row  formgroup">
                   <div class="col-6">
-                  <input type="text" class="form-control" placeholder="Puissances fiscales">
+                  <input type="text" class="form-control form-controlbanner" placeholder="Carburant">
                   </div>
                   <div class="col-6">
-                  <input type="text" class="form-control" placeholder="En stock">
+                  <input type="text" class="form-control form-controlbanner" placeholder="Boite de vitesses">
+                  </div>
+              </div>
+              <div class="row  formgroup">
+                  <div class="col-6">
+                  <input type="text" class="form-control form-controlbanner" placeholder="Puissances fiscales">
+                  </div>
+                  <div class="col-6">
+                  <input type="text" class="form-control form-controlbanner" placeholder="En stock">
                   </div>
               </div>
 
               <div class="row  formgroup">
                   <div class="col">
-                      <button class="btn  text-uppercase formbutton" type="submit">Rechercher</button>
+                      <button class="btn  text-uppercase formbutton formbuttonaccueil" type="submit">Rechercher</button>
                   </div>
               </div>
           </form>
         </section>
 
       <section >
-              <div class="container pr-0 pl-0 pt-0 pb-0 concession">
+              <div class="container containerwidth pr-0 pl-0 pt-0 pb-0 concession">
                 <h1 class="concessiontitle"> CONCESSION AUTOMOBILE EN ALSACE </h1>
                 <div class="mask">
                   <img src="images/Voiture.jpg" alt="des voitures" class="w-100">
                 </div>
               </div>
 
-              <div class="container pr-0 pl-0 pt-0 pb-0 concession2" >
+              <div class="container containerwidth pr-0 pl-0 pt-0 pb-0 concession2" >
                 <div class="mask2">
                   <img src="images/Voiture.jpg" alt="des voitures" class="w-100">
                 </div>
@@ -92,7 +92,7 @@
       </section>
 
       <section>
-            <div class="container height bg-color ">
+            <div class="container containerwidth height bg-color ">
                 <div class=" text-left text-white">
                   <h1 class="titrederniers">NOS DERNIERES MODELES</h1>
                 </div>
@@ -126,14 +126,14 @@
                   </div>
                   <div class="essai">
                     <h4>Essayez la!</h4> <p>Vous pouvez dès à présent réserver un essai sur notre site. </p>
-                      <button class="btn  text-uppercase formbutton" type="submit">Rechercher</button>
+                      <button class="btn  text-uppercase formbutton formbuttonaccueil" type="submit">Rechercher</button>
                   </div>
               </div>
       </section>
 
       <section class="nosservices ">
-      <div class="container bg-dark pr-0 pl-0 nosservicescontainer">
-            <div class="container pr-0 pl-0 " >
+      <div class="container containerwidth bg-dark pr-0 pl-0 nosservicescontainer">
+            <div class="container containerwidth pr-0 pl-0 " >
               <img src="images/masque4.png" class="img-fluid">
               <h1 class="nosservicestitre text-white"> NOS SERVICES </h1>
             </div>
@@ -153,7 +153,7 @@
         </section>
 
           <section class="reprisedevotrevoiture">
-            <div class="container pr-0 pl-0 pt-3 text-white reprisedevotrevoiturecontainer">
+            <div class="container containerwidth pr-0 pl-0 pt-3 text-white reprisedevotrevoiturecontainer">
               <div class="row mr-0   reprisedevotrevoitureligne">
                 <div class="col-4 d-block colmoney">
                       <div  class="d-flex justify-content-center mb-5"> <img src="icones/money.png" alt="money" > </div>
@@ -172,7 +172,7 @@
           </section>
 
       <section id="toutesnosmarques">
-            <div class="container toutesnosmarquescontainer">
+            <div class="container containerwidth toutesnosmarquescontainer">
                 <div class="page-header text-left text-white">
                   <h1 class="titretoutesnosmarque">TOUTES NOS MARQUES</h1>
                 </div>
@@ -208,7 +208,7 @@
       </section>
 
           <section class="nouscontacter">
-            <div class=" container pr-0 pl-0 nouscontactercartetext">
+            <div class=" container containerwidth  pr-0 pl-0 nouscontactercartetext">
             <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.1732220064496!2d7.369273915647971!3d48.106894079220986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791663cf30c28e5%3A0x8d74bc6d6253ba48!2s16%20Rue%20Andr%C3%A9%20Kiener%2C%2068000%20Colmar!5e0!3m2!1sfr!2sfr!4v1592818689678!5m2!1sfr!2sfr"height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class=" nouscontactertext">
               <h1>NOUS CONTACTER</h1>

@@ -30,7 +30,7 @@
             <a href="#">Contact</a>
           </div>
 
-          <div  class="container logoloupe">
+          <div  class="container containerwidth logoloupe">
             <div  class="logo ">
                 <img src="images/logo/logo.png" alt="logo">
             </div>
