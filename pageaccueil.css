@@ -101,8 +101,8 @@ color:white;
 .formbutton{
   background:none;
   font-weight: bold;
-  color:red;
-  border: solid 3px red;
+  color:#eb2525;
+  border: solid 3px #eb2525;
   border-radius: 0;
   text-align: right;
   margin-top: 20px;
@@ -162,21 +162,25 @@ background-color: black;
 
 
 /* dernières modèles*/
-.derniersmodeles{
-  position:relative!important;
-
+.deniersmodeles{
+  position:relative;
 }
 .bg-color{
-  position:relative!important;
+  position:relative;
   background-color:#262626!important;
-
+  height: 900px!important;
 }
-.height{
-  max-height:1465px!important;
+
+
+.titrederniers {
+  position:absolute;
+  top:30px;
+  left:10%;
+  font-size: 2.5rem!important;
 }
 .essai{
   position:absolute;
-  top:450px;
+  top:700px;
   left:50%;
   transform: translateX(-50%);
   color: white;
@@ -185,8 +189,17 @@ background-color: black;
 
 .nosdernieresmodelescarousel{
   width:70%;
-  text-align: center;
+  text-align: left;
   margin:auto;
+  object-fit: cover;
+  padding-top: 200px;
+}
+.carouselimg p{
+  width:200px;
+  margin-left: 550px;
+}
+.carouselimg p.text-danger{
+  text-align: right;
 }
 /*fin dernières modèles*/
 
@@ -213,12 +226,15 @@ transform: rotate(-62deg);
 -webkit-transform: rotate(-62deg);
 -khtml-transform: rotate(-62deg);
 -ms-transform: rotate(-61deg);
+  width:650px;
+  justify-content: space-between;
 }
 
 .reprise{
-  left:5%;
-  font-size: 2rem!important;
-}
+  left:2%;
+  width:700px;
+  top:410px;
+  }
 .service{
   left:35%;
 }
@@ -227,29 +243,56 @@ transform: rotate(-62deg);
 }
 .nosservicesh2{
   font-size:2.5rem!important;
+
+}
+/*fin nos services*/
+
+/*reprises de votre vehicule*/
+.reprisedevotrevoiturecontainer{
+    position: relative;
+    background-color: #eb2525;
 }
 .reprisedevotrevoitureligne {
   margin-right: 100px!important;
   margin-left: 150px;
   padding-top:50px;
+  height: 520px;
   }
 
   .formbuttonnosservices{
+    position:absolute;
+    top:-80px;
+    left:50%;
+    transform:translateX(-50%);
     background:none;
     font-weight: bold;
-    color:white;
-    border: solid 3px white;
+    color:#eb2525;
+    border: solid 3px #eb2525;
     border-radius: 0;
     text-align: right;
     margin-top: 20px;
   }
-/*fin nos services*/
-
+  .heightimgfluid{
+    height:400px!important;
+  }
+/*fin de reprises de votre vehicule*/
 /*nos marques*/
+.titretoutesnosmarque{
+  position:absolute;
+  top:60px;
+  left:10%;
+  font-size: 2.5rem!important;
+}
+
 .toutesnosmarquescontainer{
+  position:relative;
   background-color:black;
   justify-content: center;
+  height:400px;
+padding-top: 200px;
 }
+
+
 /*fin nos marques*/
 
 
@@ -276,6 +319,7 @@ width:100%;
   margin-top: 20px;
 }
 /*fin nous contacter*/
+
 /* FOOTER */
 
 .container-fluid{

@@ -91,10 +91,10 @@
 
       </section>
 
-      <section id="nosdernieresmodeles">
+      <section>
             <div class="container height bg-color ">
                 <div class=" text-left text-white">
-                  <h1>NOS DERNIERES MODELES</h1>
+                  <h1 class="titrederniers">NOS DERNIERES MODELES</h1>
                 </div>
                 <div id="carousel" class="carousel slide nosdernieresmodelescarousel" data-interval="3000" data-ride="carousel" >
                     <div class="carousel-inner ">
@@ -104,7 +104,7 @@
                         <img src="images/voiture-neuf-2.png" class="d-block img-fluid mx-auto"  alt="voitureneuve2">
                       </div>
                       <div class="carousel-item carouselimg">
-                        <p class="text-white">Audi Q3 1.4 TFSI COD 150 ch S tronic 6 Ambiente</p>
+                        <p class="text-white ">Audi Q3 1.4 TFSI COD 150 ch S tronic 6 Ambiente</p>
                         <p class="text-danger">31900€</p>
                         <img src="images/voiture-neuve-3.png" class="d-block img-fluid mx-auto" alt="voitureneuve3">
                       </div>
@@ -125,7 +125,7 @@
                     </a>
                   </div>
                   <div class="essai">
-                    <p>Essayez la !Vous pouvez dès à présent réserver un essai sur notre site. </p>
+                    <h4>Essayez la!</h4> <p>Vous pouvez dès à présent réserver un essai sur notre site. </p>
                       <button class="btn  text-uppercase formbutton" type="submit">Rechercher</button>
                   </div>
               </div>
@@ -138,7 +138,7 @@
               <h1 class="nosservicestitre text-white"> NOS SERVICES </h1>
             </div>
             <div class="row nosservicestext reprise">
-              <h2 class="nosservicesh2"> REPRISE DE VOTRE VEHICULE </h2>
+              <h2 class="nosservicesh2 "> REPRISE DE VOTRE VEHICULE </h2>
               <a> <img src="icones/money.png" alt="money" > </a>
             </div>
             <div class="row nosservicestext service ">
@@ -153,42 +153,45 @@
         </section>
 
           <section class="reprisedevotrevoiture">
-            <div class="container bg-danger pr-0 pl-0 text-white reprisedevotrevoiturecontainer">
-              <div class="row mr-0 reprisedevotrevoitureligne">
-                  <div class="col-6 d-block colmoney">
-                        <a> <img src="icones/money.png" alt="money" class="iconemoney" > </a>
-                        <h1>REPRISE DE VOTRE VEHICULE</h1>
-                        <p> Comme en concession, nous sommes en mesure de vous faire une offre de reprise sur votre véhicule. Fini le casse-tête de la vente, lorsque vous prenez possession de votre nouveau véhicule nous vous reprenons l’ancien (en fonction de l’offre établie selon les modalités de reprise).</p>
+            <div class="container pr-0 pl-0 pt-3 text-white reprisedevotrevoiturecontainer">
+              <div class="row mr-0   reprisedevotrevoitureligne">
+                <div class="col-4 d-block colmoney">
+                      <div  class="d-flex justify-content-center mb-5"> <img src="icones/money.png" alt="money" > </div>
+                      <h4 class=" pb-5 ">REPRISE DE VOTRE VEHICULE</h4>
+                      <p> Comme en concession, nous sommes en mesure de vous faire une offre de reprise sur votre véhicule. Fini le casse-tête de la vente, lorsque vous prenez possession de votre nouveau véhicule nous vous reprenons l’ancien (en fonction de l’offre établie selon les modalités de reprise).</p>
+                  </div>
+                  <div class="col-1 d-block colmoney">
+
                     </div>
-                    <div class="col-6">
-                      <a> <img src="images/reprise.jpg" class="img-fluid " alt="remisedeclés"> </a>
+                    <div class="col-7">
+                      <a> <img src="images/reprise.jpg" class="img-fluid heightimgfluid " alt="remisedeclés"> </a>
                     </div>
               </div >
-                        <button class="btn  text-uppercase formbuttonnosservices" type="submit">En savoir plus sur nos services</button>
+              <button class="btn  text-uppercase formbuttonnosservices" type="submit">En savoir plus sur nos services</button>
               </div>
           </section>
 
       <section id="toutesnosmarques">
             <div class="container toutesnosmarquescontainer">
                 <div class="page-header text-left text-white">
-                  <h1 >TOUTES NOS MARQUES</h1>
+                  <h1 class="titretoutesnosmarque">TOUTES NOS MARQUES</h1>
                 </div>
-                <div id="carousel2" class="carousel slide nosdernieresmodelescarousel" data-interval="3000" data-ride="carousel" >
+                <div id="carousel2" class="carousel slide lesmarquescarousel" data-interval="3000" data-ride="carousel" >
                     <div class="carousel-inner ">
                       <div class="carousel-item active carouselimg ">
-                        <img src="images/logo/kia.png" class="d-block img-fluid"  alt="logokia">
+                        <img src="images/logo/kia.png" class="d-block img-fluid mx-auto"  alt="logokia">
                       </div>
                       <div class="carousel-item carouselimg">
-                        <img src="images/logo/jeep1.png" class="d-block img-fluid"  alt="logojeep">
+                        <img src="images/logo/jeep1.png" class="d-block img-fluid mx-auto"  alt="logojeep">
                       </div>
                       <div class="carousel-item carouselimg">
-                        <img src="images/logo/suzuki.png" class="d-block img-fluid"  alt="logosuzuki">
+                        <img src="images/logo/suzuki.png" class="d-block img-fluid mx-auto"  alt="logosuzuki">
                       </div>
                       <div class="carousel-item carouselimg">
-                        <img src="images/logo/nissan.png" class="d-block img-fluid"  alt="logonissan">
+                        <img src="images/logo/nissan.png" class="d-block img-fluid mx-auto"  alt="logonissan">
                       </div >
                       <div class="carousel-item carouselimg">
-                        <img src="images/logo/hyundai.png" class="d-block img-fluid"  alt="logohyundai">
+                        <img src="images/logo/hyundai.png" class="d-block img-fluid mx-auto"  alt="logohyundai">
                       </div >
                     </div>
 
