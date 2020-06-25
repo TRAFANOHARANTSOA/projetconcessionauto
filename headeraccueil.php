@@ -62,14 +62,12 @@
 
     <section id="headerversionmobile">
       <div id="navbartogglemobile" >
-        <div class="container-fluid row ml-0 pr-0 pl-0 ">
-          <div class="container col-md col-lg bgnavbar">
+        <div class="container-fluid row ml-0 pr-0 pl-0 bgnavbar ">
             <div id="opennavtoggle-btnmobile" class="opennavbtn"  >
                <button class="opennavbtnstylemobile" onclick="openNavmobile()"> ☰ </button>
             </div>
                 <img src="imagesaccueil/logo/logo.png" class="img-fluid  logomobile" alt="logo">
-            </div>
-          </div>
+                </div>
           <div class="container-fluid">
             <div class="container navbarlistcontainer col-md col-lg">
               <div id="mySidebartogglemobile" class=" sidebartogglemobile">

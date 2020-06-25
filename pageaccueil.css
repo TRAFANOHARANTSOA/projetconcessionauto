@@ -43,7 +43,7 @@
   text-decoration: none;
   color: white;;
   display: block;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 
   }
 .sidebarlinks{
@@ -147,9 +147,11 @@ height: 250px;
 
 .cartemobile{
 width:100%;
+height:500px;
 }
 #partienouscontactermobile{
   position:relative;
+  min-height: 350px;
 }
 .nouscontactertextmobile{
 position:absolute;
@@ -159,6 +161,7 @@ transform:translateX(-50%);
 background:#1a1a1a;
 color:white;
 width:90%;
+z-index: 999;
 }
 .formbuttonnosnouscontactermobile{
   background:none;
@@ -290,11 +293,16 @@ color:white;
 
 /* concession*/
 #partieconcession{
-  font-family: 'lato', sans-serif;
+font-family: 'lato', sans-serif;
+  height:1600px;
+  background-color: black;
 }
 .concession, .concession2{
 position:relative;
 background-color: black;
+}
+.concession2{
+margin-bottom:100px;
 }
 
 .concessiontitle {
@@ -306,17 +314,7 @@ background-color: black;
   width:min-content;
   line-height: 2em;
 }
-@media screen and (max-width :1024px){
-  .concessiontitle {
-    font-family: 'fjalla one', sans-serif;
-    position:absolute;
-    top:150px;
-    right: 20%;
-    color:white;
-    width:min-content;
-    line-height: 2em;
-  }
-}
+
 .concessionparagprahe{
   position:absolute;
   top:150px;
@@ -327,17 +325,6 @@ background-color: black;
   text-transform: uppercase;
 }
 
-@media screen and (max-width :1024+=1140px){
-  .concessionparagprahe {
-    position:absolute;
-    top:40px;
-    right: 2%;
-    color:white;
-    width:60vw;
-    line-height: 2em;
-    text-transform: uppercase;
-  }
-}
 
 .mask{
   mask-image:url(imagesaccueil/masque.png);
@@ -412,16 +399,6 @@ background-color: black;
 .carouselimg p.text-danger{
   text-align: right;
 }
-
-@media screen and (max-width:1024px){
-  .carouselimg p{
-    width:200px;
-    margin-left: 350px;
-  }
-  .carouselimg p.text-danger{
-    text-align: right;
-  }
-}
 /*fin dernières modèles*/
 
 
@@ -469,7 +446,6 @@ transform: rotate(-62deg);
 .nosservicesh2{
   font-family: 'Fjalla one', sans-serif;
   font-size:2.5rem!important
-
 }
 .flechegauchedroite{
   position:absolute;
@@ -592,4 +568,99 @@ display:none;
     #bodyversionmobile {
       display:none;
       }
+      .carte{
+      width:100%;
+      height:500px;
+      }
 }
+
+@media screen and (max-width :1024px){
+
+  .carouselimg p{
+    width:200px;
+    margin-left: 200px;
+  }
+  .carouselimg p.text-danger{
+    text-align: right;
+  }
+  .concessiontitle {
+    font-family: 'fjalla one', sans-serif;
+    position:absolute;
+    top:150px;
+    right: 20%;
+    color:white;
+    width:min-content;
+    line-height: 2em;
+  }
+  .concessionparagprahe {
+    position:absolute;
+    top:40px;
+    right: 2%;
+    color:white;
+    width:70vw;
+    line-height: 2em;
+    text-transform: uppercase;
+
+  }
+  #partieconcession{
+    height:1100px;
+      }
+  .nosservicestitre{
+    font-family: 'fjalla one', sans-serif;
+    position:absolute;
+    top:10px;
+    left:10%;
+    font-size: 2.5rem!important;
+  }
+    .nosservicesh2{
+      font-family: 'Fjalla one', sans-serif;
+      font-size:1.5rem!important;
+      justify-content: center;
+    }
+    .nosservicestext{
+    position:absolute;
+    color:white;
+    top:225px;
+    width:400px;
+    }
+    .reprise{
+      left:2%;
+      width:500px;
+      top:270px;
+      }
+    .service{
+      left:35%;
+    }
+    .garantie{
+      left:65%;
+    }
+    .flechegauchedroite{
+      position:absolute;
+      top:300px;
+      left:25%;
+    }
+    .flechegauchedroite1{
+      position:absolute;
+      top:300px;
+      left:55%;
+    }
+    .flechegauchedroite2{
+      position:absolute;
+      top:300px;
+      left:67%;
+    }
+    .formbuttonnosservices{
+      top:-70px;
+    }
+    .colmoney{
+      margin-bottom:1rem!important;
+      width:100px;
+  }
+    .colmoneytitre{
+    padding-bottom:0!important;
+  }
+  .offrederprise{
+
+  }
+}
+/*fin des medias*/

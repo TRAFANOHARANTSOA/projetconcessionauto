@@ -68,7 +68,6 @@
           <img src="imagesaccueil/Voiture.jpg" alt="des voitures" class="w-100">
         </div>
       </div>
-
       <div class="container containerwidth pr-0 pl-0 pt-0 pb-0 concession2" >
         <div class="mask2">
           <img src="imagesaccueil/Voiture.jpg" alt="des voitures" class="w-100">
@@ -162,12 +161,12 @@
   <section id="partiereprise" class="reprisedevotrevoiture">
     <div class="container containerwidth pr-0 pl-0 pt-3 text-white reprisedevotrevoiturecontainer">
       <div class="row mr-0   reprisedevotrevoitureligne">
-        <div class="col-4 d-block colmoney">
-              <div  class="d-flex justify-content-center mb-5"> <img src="iconesaccueil/money.png" alt="money" > </div>
-              <h3 class=" pb-5 ">REPRISE DE VOTRE VEHICULE</h3>
-              <p> Comme en concession, nous sommes en mesure de vous faire une offre de reprise sur votre véhicule. Fini le casse-tête de la vente, lorsque vous prenez possession de votre nouveau véhicule nous vous reprenons l’ancien (en fonction de l’offre établie selon les modalités de reprise).</p>
+        <div class="col-4  d-block ">
+              <div  class="d-flex justify-content-center mb-5 colmoney"> <img src="iconesaccueil/money.png" alt="money" > </div>
+              <h3 class=" pb-5 colmoneytitre">REPRISE DE VOTRE VEHICULE</h3>
+              <p class="offredereprise"> Comme en concession, nous sommes en mesure de vous faire une offre de reprise sur votre véhicule. Fini le casse-tête de la vente, lorsque vous prenez possession de votre nouveau véhicule nous vous reprenons l’ancien (en fonction de l’offre établie selon les modalités de reprise).</p>
           </div>
-          <div class="col-1 d-block colmoney">
+          <div class="col-1 d-block ">
 
             </div>
             <div class="col-7">
@@ -381,8 +380,10 @@
               <p> 07 84 38 68 15</p>
               <button class="btn  text-uppercase formbuttonnosnouscontactermobile" type="submit">Afficher la carte</button>
             </div>
-              <div>
+              <div class="row">
+                <div class="col">
               <iframe class="cartemobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.1732220064496!2d7.369273915647971!3d48.106894079220986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791663cf30c28e5%3A0x8d74bc6d6253ba48!2s16%20Rue%20Andr%C3%A9%20Kiener%2C%2068000%20Colmar!5e0!3m2!1sfr!2sfr!4v1592818689678!5m2!1sfr!2sfr"height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
               </div>
             </section>
         </section>
